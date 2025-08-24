@@ -494,6 +494,8 @@ footer {
   background-color: #263238;
   padding: 64px 0;
 }
+footer .container .flex {
+}
 footer .container .left {
   width: 40%;
 }
@@ -526,9 +528,6 @@ footer .container .right {
   width: 60%;
 }
 
-footer .container .right .flex {
-  align-items: flex-start;
-}
 footer .container .right .ftrmenu h3 {
   font-size: 20px;
   line-height: 28px;
@@ -548,7 +547,7 @@ footer .container .right .ftrmenu ul li a {
   line-height: 20px;
   font-weight: 300;
 }
-footer .container .right .ftrmenu input {
+footer .container .right .ftrmenu .mail input {
   background-color: #d9dbe14f;
   width: 255px;
   padding: 10px 12px;
@@ -557,9 +556,19 @@ footer .container .right .ftrmenu input {
   outline: none;
   color: #ffffff;
 }
-footer .right input ::placeholder {
-  font-size: 20px;
+footer .right .mail input::placeholder {
+  font-size: 14px;
   line-height: 20px;
   font-weight: 300;
   color: #d9dbe1;
+}
+footer .container .right .ftrmenu .mail {
+  position: relative;
+}
+footer .container .right .ftrmenu .mail i {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  right: 12px;
+  color: #ffffff;
 }
