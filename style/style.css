@@ -378,6 +378,7 @@
 #our_clint .right .logo :first-child {
   margin-left: 0;
 }
+
 #our_clint .right .logo a {
   color: #4caf4f;
   font-size: 20px;
@@ -387,7 +388,10 @@
   text-decoration: none;
   margin-left: 32px;
 }
-
+#our_clint .right .flex {
+  display: flex;
+  align-items: flex-start;
+}
 /*------------------our clint end------------------------*/
 /*-----------------mrketing start-------------*/
 
@@ -495,59 +499,71 @@ footer {
   padding: 64px 0;
 }
 footer .container .flex {
+  align-items: flex-start;
 }
+
 footer .container .left {
   width: 40%;
 }
-footer .container .left img {
+footer .container .left .ftr_log img {
   margin-bottom: 40px;
 }
 
-footer .container .left h4 {
-  font-size: 14px;
-  line-height: 20px;
-  font-weight: 300;
+footer .container .left .ftr_log h4 {
   color: #f5f7fa;
-  margin-block: 5px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
 }
-footer .container .left ul {
-  list-style-type: none;
+
+footer .container .left .ftr_log ul {
   display: flex;
+  list-style-type: none;
   margin-top: 40px;
-  align-items: center;
   gap: 16px;
+  align-items: center;
 }
-footer .container .left ul li a {
+
+footer .container .left .ftr_log li a {
   background-color: #717171;
   padding: 8px;
   border-radius: 50%;
   font-size: 17px;
+
   color: #ffffff;
 }
+
 footer .container .right {
   width: 60%;
 }
+footer .right .flex {
+  display: flex;
 
-footer .container .right .ftrmenu h3 {
+  align-items: flex-start;
+}
+footer .right .ftrmenu h3 {
   font-size: 20px;
   line-height: 28px;
   font-weight: 600;
   color: #ffffff;
   margin-bottom: 24px;
 }
-
-footer .container .right .ftrmenu ul li {
+footer .right .ftrmenu ul {
   list-style-type: none;
+  gap: 16px;
+}
+footer .right .ftrmenu ul li {
   margin-bottom: 12px;
 }
-footer .container .right .ftrmenu ul li a {
+
+footer .right .ftrmenu ul li a {
   text-decoration: none;
   color: #f5f7fa;
   font-size: 14px;
   line-height: 20px;
   font-weight: 300;
 }
-footer .container .right .ftrmenu .mail input {
+footer .right .mail input {
   background-color: #d9dbe14f;
   width: 255px;
   padding: 10px 12px;
