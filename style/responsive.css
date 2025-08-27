@@ -1,0 +1,591 @@
+@media (min-width: 320px) and (max-width: 580px) {
+  #navbar {
+    padding: 22px 0;
+    background-color: rgb(248, 249, 250);
+  }
+  .container {
+    max-width: 1152px;
+    margin: 0 auto;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu {
+    display: none;
+  }
+  #navbar .menu ul {
+    display: none;
+
+    list-style-type: none;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .menu ul li a {
+    text-decoration: none;
+    font-weight: 500px;
+    font-size: 16px;
+
+    color: #18191f;
+  }
+
+  #navbar .btn .login {
+    display: none;
+
+    font-size: 14px;
+    color: #4caf4f;
+    font-weight: 500px;
+    text-transform: capitalize;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-family: "Inter", sans-serif;
+  }
+  #navbar .btn .sign {
+    display: none;
+    font-size: 14px;
+    font-weight: medium;
+    color: white;
+    background-color: #4caf4f;
+    border: none;
+    border-radius: 6px;
+    font-family: "Inter", sans-serif;
+    padding: 10px 20px;
+    text-transform: capitalize;
+  }
+  /* ----------------- navbar end --------------  */
+
+  /* ------hero start-----------*/
+  #hero {
+    background-color: rgb(244, 244, 250);
+  }
+
+  #hero h1 {
+    color: #4d4d4d;
+    font-size: 64px;
+    line-height: 76px;
+    font-weight: 400;
+  }
+  #hero h2 {
+    color: #4caf4f;
+    font-size: 64px;
+    line-height: 76px;
+    font-weight: 400;
+  }
+  #hero p {
+    color: #717171;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 16px;
+    font-weight: 300;
+  }
+  #hero button {
+    border: none;
+    border-radius: 6px;
+    background-color: #4caf4f;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 14px 32px;
+    margin-top: 32px;
+  }
+
+  #hero .hero-right {
+    padding: 96px 0;
+  }
+
+  #hero .indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  #hero .indicator span {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #4caf4f;
+    margin-bottom: 20px;
+    opacity: 0.3;
+  }
+  #hero .indicator span.act_dot {
+    background-color: #4caf4f;
+    opacity: 1;
+  }
+
+  /* ------hero end-----------*/
+
+  /*------------clint start-------------*/
+  #clint {
+    text-align: center;
+    padding: 40px 0;
+  }
+  #clint h2 {
+    color: #4d4d4d;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+  }
+  #clint p {
+    color: #717171;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+  /*-------------clint end-----------------*/
+
+  /*---------------------service start-----------------*/
+
+  #service h2 {
+    color: #4d4d4d;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    width: 542px;
+    margin: 0 auto;
+  }
+  .container p {
+    color: #717171;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  #service .flex {
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #service .service_card {
+    width: 300px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 24px 16px;
+    box-shadow: 0 2px 4px 0 rgba(171, 190, 209, 0.2);
+  }
+  .service_card h4 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #4d4d4d;
+    margin: 0 auto;
+    line-height: 36px;
+    width: 267px;
+  }
+  .service_card .exp {
+    width: 231px;
+  }
+  #service .service_card img {
+    margin: 0 auto;
+  }
+  .service_card p {
+    font-size: 14px;
+    font-weight: regular;
+    color: #717171;
+    margin: 0 auto;
+    line-height: 20px;
+    width: 251px;
+  }
+  .service_card .exp1 {
+    width: 240px;
+  }
+  /*----------------------service end---------------------*/
+  /*------------------content start-------------------*/
+  #content {
+    margin-top: 48px;
+  }
+  #content .cont_left {
+    width: 45%;
+  }
+  #content .cont_right {
+    width: 55%;
+  }
+  #content .cont_right h2 {
+    color: #4d4d4d;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    width: 601px;
+    margin-bottom: 16px;
+  }
+  #content .cont_right p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #717171;
+    line-height: 20px;
+    width: 601px;
+    margin-bottom: 32px;
+    text-align: left;
+  }
+  #content .cont_right button {
+    background-color: #4caf4f;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 3px;
+  }
+
+  /*-------------------content end------------------*/
+
+  /*---------------------clint content start--------------*/
+
+  #clint_content {
+    margin: 48px 0;
+    background-color: #f5f7fa;
+    padding: 64px 0;
+  }
+  #clint_content .left {
+    width: 50%;
+  }
+  #clint_content .left h2 {
+    color: #4d4d4d;
+    line-height: 44px;
+    font-size: 36px;
+    font-weight: 500;
+  }
+  #clint_content .left h3 {
+    line-height: 44px;
+    font-size: 36px;
+    font-weight: 500;
+    color: #4caf4f;
+    margin-bottom: 8px;
+  }
+  #clint_content .left p {
+    color: #18191f;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: left;
+    width: 540px;
+  }
+  #clint_content .rigth {
+    width: 50%;
+  }
+  #clint_content .rigth .card .flex {
+    gap: 16px;
+  }
+  #clint_content .rigth .cont_text h3 {
+    color: #4d4d4d;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 36px;
+  }
+  #clint_content .rigth .cont_text h4 {
+    color: #717171;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+  }
+  #clint_content .rigth .flex {
+    justify-content: flex-start;
+    gap: 30px;
+  }
+
+  #clint_content .rigth .card {
+    width: 255px;
+  }
+  #clint_content .rigth .mar_top {
+    margin-top: 40px;
+  }
+  /*---------------------clint content end--------------*/
+
+  /*----------------------clint design start---------------*/
+  #clint_desg {
+    margin-bottom: 48px;
+  }
+
+  #clint_desg .left {
+    width: 45%;
+  }
+  #clint_desg .right {
+    width: 55%;
+  }
+
+  #clint_desg .right h2 {
+    color: #4d4d4d;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 600;
+    width: 601px;
+    margin-bottom: 16px;
+  }
+  #clint_desg .right p {
+    color: #4d4d4d;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    width: 601px;
+    text-align: left;
+    margin-bottom: 32px;
+  }
+
+  #clint_desg .right button {
+    background-color: #4caf4f;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    padding: 14px 32px;
+    border-radius: 3px;
+    font-weight: 600;
+  }
+
+  /*----------------------clint design start---------------*/
+
+  #our_clint {
+    padding: 32px 0;
+    margin-bottom: 48px;
+  }
+
+  #our_clint .container .left {
+    width: 30%;
+  }
+  #our_clint .container .left img {
+  }
+  #our_clint .container .right {
+    width: 70%;
+    margin-left: 51px;
+  }
+  #our_clint .right p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    width: 748px;
+    text-align: left;
+  }
+  #our_clint .right h3 {
+    color: #4caf4f;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  #our_clint .right .logo {
+    margin-top: 32px;
+  }
+  #our_clint .right .logo img {
+    margin-left: 41px;
+  }
+  #our_clint .right .logo :first-child {
+    margin-left: 0;
+  }
+
+  #our_clint .right .logo a {
+    color: #4caf4f;
+    font-size: 20px;
+    font-weight: 500;
+    width: 223px;
+    line-height: 24px;
+    text-decoration: none;
+    margin-left: 32px;
+  }
+  #our_clint .right .flex {
+    display: flex;
+    align-items: flex-start;
+  }
+  /*------------------our clint end------------------------*/
+  /*-----------------mrketing start-------------*/
+
+  #marketing {
+    margin-bottom: 84px;
+  }
+  #marketing .marketing_text h2 {
+    color: #4d4d4d;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  #marketing .marketing_text p {
+    color: #4d4d4d;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+    width: 628px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+  }
+
+  #marketing .feature {
+    width: 32%;
+    border-radius: 8px;
+    position: relative;
+  }
+  #marketing .feature img {
+    width: 100%;
+  }
+  #marketing .feature .card {
+    width: 317px;
+
+    background-color: #f5f7fa;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    bottom: -50px;
+    border-radius: 8px;
+    padding: 16px;
+  }
+  #marketing .feature .card h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    color: #4d4d4d;
+    margin-bottom: 16px;
+  }
+
+  #marketing .card .appwit {
+    width: 276px;
+  }
+  #marketing .feature .card button {
+    color: #4caf4f;
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+  }
+
+  /*-----------------mrketing end-------------*/
+
+  /*------------------demu start----------------*/
+  #demu {
+    background-color: #f5f7fa;
+    padding: 32px 0;
+  }
+
+  #demu .content h2 {
+    font-size: 64px;
+    line-height: 76px;
+    font-weight: 600;
+    color: #263238;
+    text-align: center;
+    width: 887px;
+    margin: 0 auto;
+    padding-bottom: 32px;
+  }
+  #demu .content .btn {
+    text-align: center;
+  }
+  #demu .content .btn button {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400px;
+    padding: 14px 32px;
+    background-color: #4caf4f;
+    border: none;
+    border-radius: 4px;
+    width: 178px;
+  }
+  /*------------------demu end----------------*/
+
+  footer {
+    background-color: #263238;
+    padding: 64px 0;
+  }
+  footer .container .flex {
+    align-items: flex-start;
+  }
+
+  footer .container .left {
+    width: 40%;
+  }
+  footer .container .left .ftr_log img {
+    margin-bottom: 40px;
+  }
+
+  footer .container .left .ftr_log h4 {
+    color: #f5f7fa;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+
+  footer .container .left .ftr_log ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 40px;
+    gap: 16px;
+    align-items: center;
+  }
+
+  footer .container .left .ftr_log li a {
+    background-color: #717171;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 17px;
+
+    color: #ffffff;
+  }
+
+  footer .container .right {
+    width: 60%;
+  }
+  footer .right .flex {
+    display: flex;
+
+    align-items: flex-start;
+  }
+  footer .right .ftrmenu h3 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 24px;
+  }
+  footer .right .ftrmenu ul {
+    list-style-type: none;
+    gap: 16px;
+  }
+  footer .right .ftrmenu ul li {
+    margin-bottom: 12px;
+  }
+
+  footer .right .ftrmenu ul li a {
+    text-decoration: none;
+    color: #f5f7fa;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+  }
+  footer .right .mail input {
+    background-color: #d9dbe14f;
+    width: 255px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+  }
+  footer .right .mail input::placeholder {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #d9dbe1;
+  }
+  footer .container .right .ftrmenu .mail {
+    position: relative;
+  }
+  footer .container .right .ftrmenu .mail i {
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    right: 12px;
+    color: #ffffff;
+  }
+}
