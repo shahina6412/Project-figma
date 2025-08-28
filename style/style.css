@@ -20,6 +20,9 @@
   justify-content: space-between;
   align-items: center;
 }
+#navbar i {
+  display: none;
+}
 .menu ul {
   display: flex;
   list-style-type: none;
@@ -62,6 +65,7 @@
 /* ------hero start-----------*/
 #hero {
   background-color: rgb(244, 244, 250);
+  padding: 50px;
 }
 
 #hero h1 {
@@ -82,6 +86,7 @@
   line-height: 24px;
   margin-top: 16px;
   font-weight: 300;
+  text-align: left;
 }
 #hero button {
   border: none;

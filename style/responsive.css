@@ -1,24 +1,18 @@
 @media (min-width: 320px) and (max-width: 580px) {
-  #navbar {
-    padding: 22px 0;
-    background-color: rgb(248, 249, 250);
-  }
-  .container {
-    max-width: 1152px;
-    margin: 0 auto;
-  }
-
   .flex {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+  }
+  #navbar .icon_menu i {
+    display: block;
+    font-size: 20px;
     align-items: center;
   }
   .menu {
     display: none;
   }
   #navbar .menu ul {
-    display: none;
-
     list-style-type: none;
     justify-content: center;
     gap: 50px;
@@ -62,19 +56,27 @@
   /* ------hero start-----------*/
   #hero {
     background-color: rgb(244, 244, 250);
+    padding: 30px 0;
   }
-
+  #hero .flex {
+    flex-direction: column;
+  }
+  #hero .hero-left {
+    width: 100%;
+  }
   #hero h1 {
     color: #4d4d4d;
-    font-size: 64px;
-    line-height: 76px;
+    font-size: 45px;
+    line-height: 56px;
     font-weight: 400;
+    width: auto;
   }
   #hero h2 {
     color: #4caf4f;
     font-size: 64px;
     line-height: 76px;
     font-weight: 400;
+    width: auto;
   }
   #hero p {
     color: #717171;
@@ -82,6 +84,8 @@
     line-height: 24px;
     margin-top: 16px;
     font-weight: 300;
+    text-align: left;
+    width: auto;
   }
   #hero button {
     border: none;
@@ -92,11 +96,15 @@
     font-weight: 500;
     line-height: 24px;
     padding: 14px 32px;
-    margin-top: 32px;
+    margin-top: 20px;
   }
 
   #hero .hero-right {
-    padding: 96px 0;
+    padding: 53px 0;
+  }
+
+  #hero .hero-right img {
+    width: 100%;
   }
 
   #hero .indicator {
@@ -123,20 +131,29 @@
 
   /*------------clint start-------------*/
   #clint {
-    text-align: center;
     padding: 40px 0;
   }
   #clint h2 {
+    text-align: center;
     color: #4d4d4d;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 600;
-    line-height: 44px;
+    line-height: 40px;
   }
   #clint p {
+    text-align: center;
     color: #717171;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  #clint .flex {
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  #clint .flex .icon_div {
+    width: 40%;
+    text-align: center;
   }
   /*-------------clint end-----------------*/
 
@@ -145,30 +162,31 @@
   #service h2 {
     color: #4d4d4d;
     text-align: center;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 600;
-    line-height: 44px;
-    width: 542px;
-    margin: 0 auto;
+    line-height: 40px;
+    width: 100%;
   }
   .container p {
     color: #717171;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 20px;
     margin-bottom: 10px;
     text-align: center;
   }
 
   #service .flex {
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    gap: 15px;
   }
 
   #service .service_card {
     width: 300px;
     background-color: #ffffff;
     text-align: center;
-    padding: 24px 16px;
+    padding: 18px 16px;
     box-shadow: 0 2px 4px 0 rgba(171, 190, 209, 0.2);
   }
   .service_card h4 {
@@ -201,28 +219,36 @@
   #content {
     margin-top: 48px;
   }
+  #content .flex {
+    flex-direction: column;
+  }
+
   #content .cont_left {
-    width: 45%;
+    width: 100%;
+  }
+  #content .cont_left img {
+    width: 100%;
   }
   #content .cont_right {
-    width: 55%;
+    width: 100%;
+    text-align: left;
   }
   #content .cont_right h2 {
     color: #4d4d4d;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 600;
-    line-height: 44px;
-    width: 601px;
+    line-height: 40px;
+    width: auto;
     margin-bottom: 16px;
   }
+
   #content .cont_right p {
     font-size: 14px;
     font-weight: 400;
     color: #717171;
     line-height: 20px;
-    width: 601px;
+    width: auto;
     margin-bottom: 32px;
-    text-align: left;
   }
   #content .cont_right button {
     background-color: #4caf4f;
@@ -230,7 +256,7 @@
     color: #ffffff;
     font-weight: 600;
     line-height: 24px;
-    padding: 14px 32px;
+    padding: 12px 28px;
     border: none;
     border-radius: 3px;
   }
@@ -239,40 +265,44 @@
 
   /*---------------------clint content start--------------*/
 
+  #clint_content .flex {
+    flex-direction: column;
+  }
   #clint_content {
-    margin: 48px 0;
+    margin: 30px 0;
     background-color: #f5f7fa;
-    padding: 64px 0;
+    padding: 30px 0;
   }
   #clint_content .left {
-    width: 50%;
+    width: 100%;
   }
   #clint_content .left h2 {
     color: #4d4d4d;
-    line-height: 44px;
-    font-size: 36px;
+    line-height: 40px;
+    font-size: 30px;
     font-weight: 500;
   }
   #clint_content .left h3 {
-    line-height: 44px;
-    font-size: 36px;
+    line-height: 40px;
+    font-size: 30px;
     font-weight: 500;
     color: #4caf4f;
     margin-bottom: 8px;
   }
   #clint_content .left p {
     color: #18191f;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 20px;
     font-weight: 400;
     text-align: left;
-    width: 540px;
+    width: 100%;
   }
   #clint_content .rigth {
-    width: 50%;
+    width: 100%;
+    padding: 10px;
   }
   #clint_content .rigth .card .flex {
-    gap: 16px;
+    gap: 10px;
   }
   #clint_content .rigth .cont_text h3 {
     color: #4d4d4d;
@@ -282,20 +312,22 @@
   }
   #clint_content .rigth .cont_text h4 {
     color: #717171;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 22px;
     font-weight: 300;
   }
   #clint_content .rigth .flex {
-    justify-content: flex-start;
-    gap: 30px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
   }
 
   #clint_content .rigth .card {
-    width: 255px;
+    width: 40%;
   }
   #clint_content .rigth .mar_top {
-    margin-top: 40px;
+    margin-top: 30px;
   }
   /*---------------------clint content end--------------*/
 
@@ -303,20 +335,27 @@
   #clint_desg {
     margin-bottom: 48px;
   }
+  #clint_desg .flex {
+    flex-direction: column;
+  }
 
   #clint_desg .left {
-    width: 45%;
+    width: 100%;
+  }
+  #clint_desg .left img {
+    width: 100%;
+    margin-bottom: 20px;
   }
   #clint_desg .right {
-    width: 55%;
+    width: 100%;
   }
 
   #clint_desg .right h2 {
     color: #4d4d4d;
-    font-size: 36px;
-    line-height: 44px;
+    font-size: 30px;
+    line-height: 40px;
     font-weight: 600;
-    width: 601px;
+    width: auto;
     margin-bottom: 16px;
   }
   #clint_desg .right p {
@@ -324,9 +363,9 @@
     font-size: 14px;
     line-height: 20px;
     font-weight: 400;
-    width: 601px;
+    width: auto;
     text-align: left;
-    margin-bottom: 32px;
+    margin-bottom: 28px;
   }
 
   #clint_desg .right button {
@@ -343,24 +382,28 @@
   /*----------------------clint design start---------------*/
 
   #our_clint {
-    padding: 32px 0;
+    padding: 20px 0;
     margin-bottom: 48px;
   }
-
+  #our_clint .flex {
+    flex-direction: column;
+  }
   #our_clint .container .left {
-    width: 30%;
+    width: 100%;
   }
   #our_clint .container .left img {
+    width: 100%;
   }
   #our_clint .container .right {
-    width: 70%;
-    margin-left: 51px;
+    width: 100%;
+    margin-left: 0;
   }
+
   #our_clint .right p {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 20px;
     font-weight: 500;
-    width: 748px;
+    width: auto;
     text-align: left;
   }
   #our_clint .right h3 {
@@ -373,7 +416,7 @@
     margin-top: 32px;
   }
   #our_clint .right .logo img {
-    margin-left: 41px;
+    margin-left: auto;
   }
   #our_clint .right .logo :first-child {
     margin-left: 0;
@@ -383,42 +426,53 @@
     color: #4caf4f;
     font-size: 20px;
     font-weight: 500;
-    width: 223px;
+    width: auto;
     line-height: 24px;
     text-decoration: none;
     margin-left: 32px;
   }
-  #our_clint .right .flex {
-    display: flex;
-    align-items: flex-start;
+  #our_clint .right .logo .flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
   }
+  #our_clint .right .logo .icon_logo {
+    width: 40%;
+  }
+
   /*------------------our clint end------------------------*/
   /*-----------------mrketing start-------------*/
 
   #marketing {
     margin-bottom: 84px;
+    width: 100%;
   }
   #marketing .marketing_text h2 {
     color: #4d4d4d;
-    font-size: 36px;
-    line-height: 44px;
+    font-size: 30px;
+    line-height: 40px;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
   }
   #marketing .marketing_text p {
     color: #4d4d4d;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 20px;
     font-weight: 400;
     text-align: center;
-    width: 628px;
+    width: auto;
     margin: 0 auto;
-    margin-bottom: 5px;
+    margin-bottom: 33px;
+  }
+  #marketing .flex {
+    flex-direction: column;
+    gap: 135px;
   }
 
   #marketing .feature {
-    width: 32%;
+    width: 90%;
     border-radius: 8px;
     position: relative;
   }
@@ -426,13 +480,13 @@
     width: 100%;
   }
   #marketing .feature .card {
-    width: 317px;
+    width: 230px;
 
     background-color: #f5f7fa;
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
-    bottom: -50px;
+    bottom: -115px;
     border-radius: 8px;
     padding: 16px;
   }
@@ -446,7 +500,7 @@
   }
 
   #marketing .card .appwit {
-    width: 276px;
+    width: 208px;
   }
   #marketing .feature .card button {
     color: #4caf4f;
@@ -465,16 +519,17 @@
   /*------------------demu start----------------*/
   #demu {
     background-color: #f5f7fa;
-    padding: 32px 0;
+    padding: 25px 0;
+    margin-top: 150px;
   }
 
   #demu .content h2 {
-    font-size: 64px;
-    line-height: 76px;
+    font-size: 40px;
+    line-height: 50px;
     font-weight: 600;
     color: #263238;
     text-align: center;
-    width: 887px;
+    width: 100%;
     margin: 0 auto;
     padding-bottom: 32px;
   }
@@ -483,27 +538,29 @@
   }
   #demu .content .btn button {
     color: #ffffff;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 20px;
     font-weight: 400px;
-    padding: 14px 32px;
+    padding: 10px 28px;
     background-color: #4caf4f;
     border: none;
     border-radius: 4px;
-    width: 178px;
+    width: 150px;
   }
   /*------------------demu end----------------*/
 
   footer {
     background-color: #263238;
-    padding: 64px 0;
+    padding: 40px 0;
   }
   footer .container .flex {
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   footer .container .left {
-    width: 40%;
+    width: 100%;
   }
   footer .container .left .ftr_log img {
     margin-bottom: 40px;
@@ -518,6 +575,7 @@
 
   footer .container .left .ftr_log ul {
     display: flex;
+    justify-content: left;
     list-style-type: none;
     margin-top: 40px;
     gap: 16px;
@@ -534,11 +592,11 @@
   }
 
   footer .container .right {
-    width: 60%;
+    width: 100%;
+    margin-top: 20px;
   }
   footer .right .flex {
     display: flex;
-
     align-items: flex-start;
   }
   footer .right .ftrmenu h3 {
